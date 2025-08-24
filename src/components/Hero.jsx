@@ -84,7 +84,7 @@ const Hero = () => {
             whileTap={{ scale: 0.95 }}
             className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-3 rounded-full text-lg font-medium hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 shadow-lg hover:shadow-cyan-500/25 border border-cyan-500/20"
           >
-            Voir mes projets
+            See my projects
           </motion.a>
           
           <motion.a
@@ -93,7 +93,7 @@ const Hero = () => {
             whileTap={{ scale: 0.95 }}
             className="bg-transparent text-cyan-400 px-8 py-3 rounded-full text-lg font-medium border-2 border-cyan-400 hover:bg-cyan-400 hover:text-black transition-all duration-300 shadow-lg hover:shadow-cyan-400/25"
           >
-            Me contacter
+            Contact me
           </motion.a>
         </motion.div>
       </div>
