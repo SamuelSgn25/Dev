@@ -67,19 +67,29 @@ export const projects = {
       source_code_link: "https://github.com/",
       live_link: "https://example.com",
     },
+    {
+      name: "Samuel SOGLOHOUN Portfolio",
+      description: "Portfolio website developed with React.js, Three.js and Tailwind CSS",
+      tags: ["React.js", "Tailwind CSS", "Three.js"],
+      image: "/projects/portfolio.png",
+      source_code_link: "https://github.com/",
+      live_link: "https://example.com",
+      role: "Frontend Developer",
+    }
   ],
   mobile: [
     {
       name: "Medi Reminder",
       description: "Connected box and mobile app for medication tracking with push notifications",
-      tags: ["React Native", "Node.js", "MySQL", "Firebase Cloud Messaging"],
+      tags: ["Node.js", "MySQL", "Firebase Cloud Messaging"],
       image: "/projects/medi-reminder.png",
       source_code_link: "https://github.com/",
       live_link: "https://example.com",
+      role: "Backend Developer",
     },
     {
       name: "To-do List Mobile",
-      description: "Mobile application developed with React Native and Tailwind CSS (without Expo)",
+      description: "Mobile application developed for ensuring project management with React Native and Tailwind CSS (without Expo) and Node.js",
       tags: ["React Native", "Tailwind CSS"],
       image: "/projects/todo-mobile.png",
       source_code_link: "https://github.com/",
@@ -203,16 +213,16 @@ export const education = [
 
 export const certifications = [
   {
-    name: "AWS Solutions Architect Certification",
-    issuer: "Amazon Web Services",
-    date: "2023",
-    credential_id: "AWS-123456",
+    name: "Data Science with Python",
+    issuer: "Lets Upgrade in Collaboration with GDG MAD",
+    date: "7 Juin 2025",
+    credential_id: "LUEDSJUN125326",
   },
   {
-    name: "Google Cloud Professional Data Engineer",
-    issuer: "Google Cloud",
-    date: "2022",
-    credential_id: "GCP-789012",
+    name: "Tech for everyone",
+    issuer: "SOLOLEARN",
+    date: "8 Juin 2025",
+    credential_id: "CC-1PKUDQZV",
   },
   {
     name: "Certified Blockchain Developer",
@@ -347,7 +357,7 @@ export const contactInfo = {
 
 export const heroData = {
   name: "SAMUEL SOGLOHOUN",
-  title: "Full-Stack Developer | Data Analyst | Blockchain Enthusiast",
+  title: "Full-Stack Developer | Data Analyst & Blockchain Enthusiast",
   subtitle: "Empowering African decision-makers through data-driven insights",
   description: "Passionate about leveraging data analysis and technology to help African leaders make informed decisions for the continent's future. Combining expertise in full-stack development, blockchain technology, and data science to create innovative solutions that drive sustainable growth across Africa.",
 };
@@ -360,8 +370,8 @@ export const hobbies = [
     icon: "🎵"
   },
   {
-    category: "Manga",
-    description: "Passionate about manga and Japanese animation",
+    category: "Mangas",
+    description: "Passionate about mangas and Japanese animation",
     items: ["Bleach", "Fairy Tail", "Naruto", "Black Clover"],
     icon: "📚"
   },
