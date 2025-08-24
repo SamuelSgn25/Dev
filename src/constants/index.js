@@ -1,288 +1,374 @@
 export const navLinks = [
+  {
+    id: "home",
+    title: "Home",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "experiences",
+    title: "Experiences",
+  },
+  {
+    id: "education",
+    title: "Education",
+  },
+  {
+    id: "certifications",
+    title: "Certifications",
+  },
+  {
+    id: "skills",
+    title: "Skills",
+  },
+  {
+    id: "hobbies",
+    title: "Hobbies",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+];
+
+export const projects = {
+  web: [
     {
-      id: 1,
-      name: 'Home',
-      href: '#home',
+      name: "ConnectStud",
+      description: "Student freelancing platform with modern UI and comprehensive features",
+      tags: ["React", "TailwindCSS", "Laravel", "PostgreSQL"],
+      image: "/projects/connectstud.png",
+      source_code_link: "https://github.com/",
+      live_link: "https://example.com",
     },
     {
-      id: 2,
-      name: 'About',
-      href: '#about',
+      name: "Expense-Tracker",
+      description: "Comprehensive expense management system with detailed analytics",
+      tags: ["InertiaJS", "Laravel", "MySQL"],
+      image: "/projects/expense-tracker.png",
+      source_code_link: "https://github.com/",
+      live_link: "https://example.com",
     },
     {
-      id: 3,
-      name: 'Work',
-      href: '#work',
+      name: "Digit Food",
+      description: "Interactive restaurant management platform with digital menus and payment integration",
+      tags: ["React.js", "Node.js", "MySQL", "Chart.js"],
+      image: "/projects/digit-food.png",
+      source_code_link: "https://github.com/",
+      live_link: "https://example.com",
     },
     {
-      id: 4,
-      name: 'Contact',
-      href: '#contact',
+      name: "Real-time Chat Application",
+      description: "Modern chat application with real-time messaging capabilities",
+      tags: ["React.js", "Node.js", "MySQL", "Socket.IO"],
+      image: "/projects/chat-app.png",
+      source_code_link: "https://github.com/",
+      live_link: "https://example.com",
     },
-  ];
-  
-  export const clientReviews = [
+  ],
+  mobile: [
     {
-      id: 1,
-      name: 'Emily Johnson',
-      position: 'Marketing Director at GreenLeaf',
-      img: 'assets/review1.png',
-      review:
-        'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-    },
-    {
-      id: 2,
-      name: 'Mark Rogers',
-      position: 'Founder of TechGear Shop',
-      img: 'assets/review2.png',
-      review:
-        'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      name: "Medi Reminder",
+      description: "Connected box and mobile app for medication tracking with push notifications",
+      tags: ["React Native", "Node.js", "MySQL", "Firebase Cloud Messaging"],
+      image: "/projects/medi-reminder.png",
+      source_code_link: "https://github.com/",
+      live_link: "https://example.com",
     },
     {
-      id: 3,
-      name: 'John Dohsas',
-      position: 'Project Manager at UrbanTech ',
-      img: 'assets/review3.png',
-      review:
-        'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      name: "To-do List Mobile",
+      description: "Mobile application developed with React Native and Tailwind CSS (without Expo)",
+      tags: ["React Native", "Tailwind CSS"],
+      image: "/projects/todo-mobile.png",
+      source_code_link: "https://github.com/",
+      live_link: "https://example.com",
+    },
+  ],
+  blockchain: [
+    {
+      name: "Decentralized Ticketing Platform",
+      description: "Event management system with React, Node.js, MySQL and blockchain option (Solidity)",
+      tags: ["React", "Node.js", "MySQL", "Solidity"],
+      image: "/projects/ticketing-system.png",
+      source_code_link: "https://github.com/",
+      live_link: "https://example.com",
     },
     {
-      id: 4,
-      name: 'Ether Smith',
-      position: 'CEO of BrightStar Enterprises',
-      img: 'assets/review4.png',
-      review:
-        'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      name: "Blockchain-based Customer Loyalty Platform",
+      description: "Customer loyalty platform leveraging blockchain technology for secure and transparent rewards",
+      tags: ["React", "Solidity", "Web3.js", "Node.js"],
+      image: "/projects/loyalty-platform.png",
+      source_code_link: "https://github.com/",
+      live_link: "https://example.com",
     },
-  ];
-  
-  export const myProjects = [
+  ],
+  data: [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
-      subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-      texture: '/textures/project/project1.mp4',
-      logo: '/assets/project-logo1.png',
-      logoStyle: {
-        backgroundColor: '#2A1816',
-        border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
-      },
-      spotlight: '/assets/spotlight1.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
+      name: "Data Science Project",
+      description: "CSV data cleaning, structuring, visualizations, predictive modeling, and dashboard development",
+      tags: ["Python", "Pandas", "Matplotlib", "Scikit-learn", "Streamlit"],
+      image: "/projects/data-science.png",
+      source_code_link: "https://github.com/",
+      live_link: "https://example.com",
     },
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-      subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-      texture: '/textures/project/project2.mp4',
-      logo: '/assets/project-logo2.png',
-      logoStyle: {
-        backgroundColor: '#13202F',
-        border: '0.2px solid #17293E',
-        boxShadow: '0px 0px 60px 0px #2F6DB54D',
-      },
-      spotlight: '/assets/spotlight2.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
+      name: "Data Analysis Program",
+      description: "Multi-month training program with practical projects, exercises and real data manipulation",
+      tags: ["Python", "SQL", "Data Visualization", "Statistical Analysis"],
+      image: "/projects/data-analysis.png",
+      source_code_link: "https://github.com/",
+      live_link: "https://example.com",
     },
-    {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-      subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-      texture: '/textures/project/project3.mp4',
-      logo: '/assets/project-logo3.png',
-      logoStyle: {
-        backgroundColor: '#60f5a1',
-        background:
-          'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-        border: '0.2px solid rgba(208, 213, 221, 1)',
-        boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-      },
-      spotlight: '/assets/spotlight3.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-    {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-      subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-      texture: '/textures/project/project4.mp4',
-      logo: '/assets/project-logo4.png',
-      logoStyle: {
-        backgroundColor: '#0E1F38',
-        border: '0.2px solid #0E2D58',
-        boxShadow: '0px 0px 60px 0px #2F67B64D',
-      },
-      spotlight: '/assets/spotlight4.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-    {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-      subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-      texture: '/textures/project/project5.mp4',
-      logo: '/assets/project-logo5.png',
-      logoStyle: {
-        backgroundColor: '#1C1A43',
-        border: '0.2px solid #252262',
-        boxShadow: '0px 0px 60px 0px #635BFF4D',
-      },
-      spotlight: '/assets/spotlight5.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-  ];
-  
-  export const calculateSizes = (isSmall, isMobile, isTablet) => {
-    return {
-      deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
-      deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
-      cubePosition: isSmall ? [4, -5, 0] : isMobile ? [5, -5, 0] : isTablet ? [5, -5, 0] : [9, -5.5, 0],
-      reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
-      ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-24, 10, 0],
-      targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
-    };
-  };
-  
-  export const workExperiences = [
-    {
-      id: 1,
-      name: 'Framer',
-      pos: 'Lead Web Developer',
-      duration: '2022 - Present',
-      title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-      icon: '/assets/framer.svg',
-      animation: 'victory',
-    },
-    {
-      id: 2,
-      name: 'Figma',
-      pos: 'Web Developer',
-      duration: '2020 - 2022',
-      title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-      icon: '/assets/figma.svg',
-      animation: 'clapping',
-    },
-    {
-      id: 3,
-      name: 'Notion',
-      pos: 'Junior Web Developer',
-      duration: '2019 - 2020',
-      title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-      icon: '/assets/notion.svg',
-      animation: 'salute',
-    },
-  ];
+  ],
+};
+
+export const experiences = [
+  {
+    title: "Frontend Web Developer",
+    company_name: "BESTIM",
+    icon: "/companies/bestim.png",
+    iconBg: "#383E56",
+    date: "April 2025 - August 2025",
+    points: [
+      "Developed ConnectStud, an intuitive and interactive student freelancing platform",
+      "Created modern and responsive user interfaces",
+      "Integrated APIs and optimized performance",
+      "Collaborated with backend team to ensure seamless integration",
+    ],
+  },
+  {
+    title: "Admissions Service Assistant",
+    company_name: "EPITECH BENIN",
+    icon: "/companies/epitech.png",
+    iconBg: "#E6DEDD",
+    date: "August 2024 - December 2024",
+    points: [
+      "Managed organization, installation of necessary tools and systems",
+      "Oversaw entrance exam process for bachelor program",
+      "Provided administrative support and coordinated admission processes",
+      "Guided candidates throughout the selection process",
+    ],
+  },
+  {
+    title: "General Secretary",
+    company_name: "EPITECH BLOCKCHAIN CLUB",
+    icon: "/companies/blockchain-club.png",
+    iconBg: "#383E56",
+    date: "August 2024 - August 2025",
+    points: [
+      "Managed administrative affairs of the club",
+      "Coordinated educational activities and club projects",
+      "Organized events and blockchain workshops",
+      "Handled internal and external club communication",
+    ],
+  },
+  {
+    title: "Trainer/Facilitator - Summer Camp",
+    company_name: "DIGITAL VALLEY",
+    icon: "/companies/digital-valley.png",
+    iconBg: "#383E56",
+    date: "June 2024 - July 2024",
+    points: [
+      "Designed and delivered training programs for young participants aged 8 to 18",
+      "Introduced digital fields: web programming and mobile app development",
+      "Provided educational guidance and personalized follow-up",
+      "Created educational content adapted to different levels",
+    ],
+  },
+  {
+    title: "Full Stack Web Developer",
+    company_name: "Cabinet PHR",
+    icon: "/companies/phr.png",
+    iconBg: "#E6DEDD",
+    date: "July 2023 - November 2023",
+    points: [
+      "Developed an interactive and user-friendly web application for restaurant service management",
+      "Managed menu presentation and order processing",
+      "Integrated payment features and inventory management",
+      "Optimized user experience and application performance",
+    ],
+  },
+];
+
+export const education = [
+  {
+    degree: "Bachelor in Software Engineering",
+    school: "Epitech",
+    date: "2022 - 2025",
+    description: "Software development and computer engineering training",
+  },
+];
+
+export const certifications = [
+  {
+    name: "AWS Solutions Architect Certification",
+    issuer: "Amazon Web Services",
+    date: "2023",
+    credential_id: "AWS-123456",
+  },
+  {
+    name: "Google Cloud Professional Data Engineer",
+    issuer: "Google Cloud",
+    date: "2022",
+    credential_id: "GCP-789012",
+  },
+  {
+    name: "Certified Blockchain Developer",
+    issuer: "Blockchain Council",
+    date: "2022",
+    credential_id: "BCD-345678",
+  },
+  {
+    name: "Microsoft Certified: Azure Developer Associate",
+    issuer: "Microsoft",
+    date: "2021",
+    credential_id: "AZ-901234",
+  },
+];
+
+export const skills = [
+  {
+    name: "C",
+    type: "programming",
+  },
+  {
+    name: "C++",
+    type: "programming",
+  },
+  {
+    name: "JavaScript",
+    type: "frontend",
+  },
+  {
+    name: "Vue.js",
+    type: "frontend",
+  },
+  {
+    name: "React.js",
+    type: "frontend",
+  },
+  {
+    name: "Inertia.js",
+    type: "frontend",
+  },
+  {
+    name: "Python",
+    type: "data",
+  },
+  {
+    name: "Node.js",
+    type: "backend",
+  },
+  {
+    name: "Solidity",
+    type: "blockchain",
+  },
+  {
+    name: "Smart Contracts",
+    type: "blockchain",
+  },
+  {
+    name: "MySQL",
+    type: "database",
+  },
+  {
+    name: "PostgreSQL",
+    type: "database",
+  },
+  {
+    name: "Docker",
+    type: "devops",
+  },
+  {
+    name: "Git",
+    type: "devops",
+  },
+  {
+    name: "GitHub",
+    type: "devops",
+  },
+  {
+    name: "GitHub Workflows",
+    type: "devops",
+  },
+  {
+    name: "CSS3",
+    type: "frontend",
+  },
+  {
+    name: "TailwindCSS",
+    type: "frontend",
+  },
+  {
+    name: "React Native",
+    type: "mobile",
+  },
+  {
+    name: "Laravel",
+    type: "backend",
+  },
+  {
+    name: "Microsoft Tools",
+    type: "productivity",
+  },
+  {
+    name: "Figma",
+    type: "design",
+  },
+  {
+    name: "UI/UX Design",
+    type: "design",
+  },
+  {
+    name: "Smart Contracts",
+    type: "blockchain",
+  },
+  {
+    name: "Creativity",
+    type: "design",
+  },
+  {
+    name: "Teamwork",
+    type: "productivity",
+  },
+];
+
+export const contactInfo = {
+  email: "soglohounsamuel2@gmail.com",
+  phone: "+229 66 01 53 87",
+  location: "Cotonou, Benin",
+  github: "https://github.com/SamuelSgn25",
+  linkedin: "https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B24SsR8m0SxmyFTtbMB86mQ%3D%3D",
+  instagram: "https://www.instagram.com/sgnsamuel?igsh=MXdpODlwb2Z4dWhiOA==",
+  whatsapp: "https://wa.me/22966015387",
+};
+
+export const heroData = {
+  name: "SAMUEL SOGLOHOUN",
+  title: "Full-Stack Developer | Data Analyst | Blockchain Enthusiast",
+  subtitle: "Empowering African decision-makers through data-driven insights",
+  description: "Passionate about leveraging data analysis and technology to help African leaders make informed decisions for the continent's future. Combining expertise in full-stack development, blockchain technology, and data science to create innovative solutions that drive sustainable growth across Africa.",
+};
+
+export const hobbies = [
+  {
+    category: "Music",
+    description: "Fan of modern and classical music",
+    items: ["Dadju", "Gims", "Mozart", "Beethoven", "Aya Nakamura", "GG Vickey", "Ayra Starr", "Beyoncé"],
+    icon: "🎵"
+  },
+  {
+    category: "Manga",
+    description: "Passionate about manga and Japanese animation",
+    items: ["Bleach", "Fairy Tail", "Naruto", "Black Clover"],
+    icon: "📚"
+  },
+  {
+    category: "Reading & Writing",
+    description: "Lover of reading and writing",
+    items: ["Novels", "Poetry", "Creative Writing", "Blogging"],
+    icon: "✍️"
+  }
+];
