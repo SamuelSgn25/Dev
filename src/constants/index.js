@@ -95,6 +95,14 @@ export const projects = {
       source_code_link: "https://github.com/",
       live_link: "https://example.com",
     },
+    {
+      name: "AREA",
+      description: "Mobile application for tasks automatisation",
+      tags: ["React Native, CSS, Node.js, MySQL"],
+      image: "/projects/todo-mobile.png",
+      source_code_link: "https://github.com/",
+      live_link: "https://example.com",
+    }
   ],
   blockchain: [
     {
@@ -209,6 +217,12 @@ export const education = [
     date: "2022 - 2025",
     description: "Software development and computer engineering training",
   },
+  {
+    degree: "Certified in Blockchain Development",
+    school: "Africa Blockchain Institute",
+    date: "2024",
+    description: "Basics of Blockchain Foundations and Development"
+  },
 ];
 
 export const certifications = [
@@ -225,10 +239,10 @@ export const certifications = [
     credential_id: "CC-1PKUDQZV",
   },
   {
-    name: "Certified Blockchain Developer",
-    issuer: "Blockchain Council",
-    date: "2022",
-    credential_id: "BCD-345678",
+    name: "Certified CodinGame in language C",
+    issuer: "CodinGame",
+    date: "2025",
+    credential_id: "10446649",
   },
   {
     name: "Microsoft Certified: Azure Developer Associate",
