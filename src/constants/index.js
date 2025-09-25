@@ -381,7 +381,7 @@ export const heroData = {
   title: "Full-Stack Developer | Data Analyst & Blockchain Enthusiast",
   subtitle: "Empowering African decision-makers through data-driven insights",
   description: "Passionate about leveraging data analysis and technology to help African leaders make informed decisions for the continent's future. Combining expertise in full-stack development, blockchain technology, and data science to create innovative solutions that drive sustainable growth across Africa.",
-  professionalSummary: "Experienced software engineer with 3+ years of expertise in full-stack development, data analysis, and blockchain technology. Proven track record of delivering innovative solutions for African businesses and organizations. Currently pursuing a Bachelor's in Software Engineering at Epitech with hands-on experience in React, Node.js, Python, and Solidity.",
+  professionalSummary: "Experienced software engineer with 3+ years of expertise in full-stack development, data analysis, and blockchain technology. Proven track record of delivering innovative solutions for African businesses and organizations. I have already finished a Bachelor's in Software Engineering at Epitech with hands-on experience in React, Node.js, Python, and Solidity.",
   keyAchievements: [
     "Developed ConnectStud, a comprehensive student freelancing platform",
     "Led blockchain initiatives as General Secretary of Epitech Blockchain Club",
