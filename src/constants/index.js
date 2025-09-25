@@ -215,7 +215,7 @@ export const education = [
     degree: "Bachelor in Software Engineering",
     school: "Epitech",
     date: "2022 - 2025",
-    description: "Software development and computer engineering training",
+    description: "Software development and computer engineering training - Obtained in 2025",
   },
   {
     degree: "Certified in Blockchain Development",
@@ -243,6 +243,13 @@ export const certifications = [
     issuer: "CodinGame",
     date: "2025",
     credential_id: "10446649",
+  },
+  {
+    name: "Art Oratoire (Public Speaking)",
+    issuer: "Club RFI Afrique",
+    date: "Octobre - Décembre 2019",
+    credential_id: "RFI-2019-CCSM",
+    location: "Collège Catholique Saint Michel",
   },
   {
     name: "Microsoft Certified: Azure Developer Associate",
@@ -374,6 +381,14 @@ export const heroData = {
   title: "Full-Stack Developer | Data Analyst & Blockchain Enthusiast",
   subtitle: "Empowering African decision-makers through data-driven insights",
   description: "Passionate about leveraging data analysis and technology to help African leaders make informed decisions for the continent's future. Combining expertise in full-stack development, blockchain technology, and data science to create innovative solutions that drive sustainable growth across Africa.",
+  professionalSummary: "Experienced software engineer with 3+ years of expertise in full-stack development, data analysis, and blockchain technology. Proven track record of delivering innovative solutions for African businesses and organizations. Currently pursuing a Bachelor's in Software Engineering at Epitech with hands-on experience in React, Node.js, Python, and Solidity.",
+  keyAchievements: [
+    "Developed ConnectStud, a comprehensive student freelancing platform",
+    "Led blockchain initiatives as General Secretary of Epitech Blockchain Club",
+    "Trained 50+ young participants in digital technologies at Digital Valley",
+    "Certified in Data Science and Blockchain Development"
+  ],
+  currentFocus: "Building scalable web applications and exploring the intersection of blockchain technology with traditional business processes to create more transparent and efficient systems.",
 };
 
 export const hobbies = [

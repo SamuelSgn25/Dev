@@ -2,6 +2,9 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Stars } from '@react-three/drei';
 import FloatingIcons from './FloatingIcons';
 import ParticleField from './ParticleField';
+import AdvancedParticles from './AdvancedParticles';
+import RotatingRings from './RotatingRings';
+import FloatingCubes from './FloatingCubes';
 
 const Scene3D = () => {
   return (
@@ -28,6 +31,15 @@ const Scene3D = () => {
         
         {/* Particle field */}
         <ParticleField count={800} />
+        
+        {/* Advanced particles */}
+        <AdvancedParticles count={1500} />
+        
+        {/* Rotating rings */}
+        <RotatingRings />
+        
+        {/* Floating cubes */}
+        <FloatingCubes />
         
         {/* Floating icons */}
         <FloatingIcons />
