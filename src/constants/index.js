@@ -170,7 +170,7 @@ export const experiences = [
     ],
   },
   {
-    title: "General Secretary",
+    title: "Co-Founder & General Secretary",
     company_name: "EPITECH BLOCKCHAIN CLUB",
     icon: "/companies/blockchain-club.png",
     iconBg: "#383E56",
